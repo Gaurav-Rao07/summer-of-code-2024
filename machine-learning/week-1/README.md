@@ -49,12 +49,12 @@ Machine learning can often be more effective than humans at uncovering non-intui
 
 ## 4. Detailed Task Breakdown
 
-### 4.1 Set Up Google Colab
+### 4.1 Set Up Google Colab(Done)
 
 - Access Google Colab and create a new notebook with GPU support.
 - [Google Colab Quick Start Guide](https://colab.research.google.com/notebooks/intro.ipynb)
 
-### 4.2 Find and Load a Dataset
+### 4.2 Find and Load a Dataset(DOne)
 
 - Search for a fraud detection dataset on Kaggle or similar platforms.
 - Use `pandas` to load and initially explore the dataset.
@@ -67,19 +67,19 @@ Machine learning can often be more effective than humans at uncovering non-intui
 - [Pandas Data Cleaning Tutorial](https://www.freecodecamp.org/news/data-cleaning-and-preprocessing-with-pandasbdvhj/)
 - [Scikit-learn Preprocessing Guide](https://scikit-learn.org/stable/modules/preprocessing.html)
 
-### 4.4 Feature Engineering
+### 4.4 Feature Engineering(no need as in this data)
 
 - Try creating new features to improve model performance.
 - Consider using automated feature engineering tools.
 - [Featuretools Documentation](https://docs.featuretools.com/)
 - [Feature Engineering Techniques Article](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 
-### 4.5 Address Class Imbalance
+### 4.5 Address Class Imbalance( do random under sampling)
 
 - Apply techniques like SMOTE or random under-sampling to balance the dataset.
 - [Imbalanced-learn Documentation](https://imbalanced-learn.org/stable/)
 
-### 4.6 Implement Classification Algorithms
+### 4.6 Implement Classification Algorithms(random forest /XGboost recommended in starting phase)
 
 Implement and compare multiple algorithms. These are some common Classification (classifying data into fraud or non-fraud categories) models:
 
@@ -90,7 +90,7 @@ Implement and compare multiple algorithms. These are some common Classification 
 - Support Vector Machines: [SVM Tutorial](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)
 - Neural Networks: [Keras Tutorial](https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/)
 
-### 4.7 Model Evaluation
+### 4.7 Model Evaluation(roc score)
 
 - Use appropriate metrics like precision-recall curve and ROC AUC score.
 - [Scikit-learn Model Evaluation](https://builtin.com/data-science/evaluating-classification-models)
